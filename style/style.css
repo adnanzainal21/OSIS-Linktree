@@ -1,0 +1,95 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', 'Open Sans', sans-serif;
+  background: linear-gradient(rgba(141, 141, 141, 0.1)20%, rgba(0, 0, 0, 0.1)),url(../img/bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+main{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0;
+  filter: blur(10px);
+  transition: opacity 2s ease-in-out, filter 2s ease-in-out;
+}
+header{
+  margin-top: 10px;
+  z-index: 1;
+}
+header>h1{
+  font-size: medium;
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  background: rgba(0, 0, 0, 0.575);
+  padding: 1px 15px 3px 15px;
+  border: 1px solid white;
+  border-radius: 7px;
+}
+#center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#rest{
+  flex: 1;
+}
+img{
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-left: 45px;
+}
+.btn{
+  width: 85%;
+  height: 45px;
+  max-width: 350px;
+  margin-top: 20px;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  transition: background-color 0.4s ease-in;
+}
+.btn:hover{
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.btn>a{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+svg{
+  margin-right: 10px;
+}
+#vanta{
+  z-index: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;     
+}
+
+p {
+  color: white;
+  
+}
