@@ -2,7 +2,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Segoe UI', 'Open Sans', sans-serif;
-  background: linear-gradient(rgba(141, 141, 141, 0.1)20%, rgba(0, 0, 0, 0.1)),url(../img/bg.jpg);
+  background: linear-gradient(rgba(141, 141, 141, 0.384)20%, rgba(0, 0, 0, 0.1)),url(../img/backgrond.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -57,7 +57,7 @@ img{
   max-width: 350px;
   margin-top: 20px;
   border-radius: 25px;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.678);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3px);
   -webkit-backdrop-filter: blur(3px);
@@ -90,6 +90,10 @@ svg{
 }
 
 p {
-  color: white;
+  color: rgb(0, 0, 0);
   
+}
+
+.abouteme {
+  margin-top: -20px;
 }
