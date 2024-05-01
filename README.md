@@ -1,5 +1,5 @@
 ## Website OSIS Linktree
-### Website Prsensi OSIS 2023/2024
+### Website Linktree OSIS 2024/2025
 open live demo : https://osisndoning.netlify.app/
 
 
